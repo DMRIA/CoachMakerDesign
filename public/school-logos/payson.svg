@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="py" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f5132"/>
+      <stop offset="100%" stop-color="#0b2b1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="38" fill="url(#py)" />
+  <rect x="18" y="18" width="164" height="164" rx="28" fill="none" stroke="#d5f5e3" stroke-width="6" opacity="0.4"/>
+  <text x="100" y="120" text-anchor="middle" font-family="Saira, Arial, sans-serif" font-size="72" font-weight="800" fill="#d5f5e3">P</text>
+</svg>

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
-import ChatAssistant from '../components/ChatAssistant';
 import FootballHero from '../components/FootballHero';
 import VideoModal from '../components/VideoModal';
 import { motion } from 'framer-motion';
@@ -246,8 +245,6 @@ const FootballPage: React.FC = () => {
                 video={selectedVideo}
                 onClose={() => setIsModalOpen(false)}
             />
-
-            <ChatAssistant />
 
             {/* Global Background Texture */}
             <div className="fixed inset-0 pointer-events-none z-0 opacity-[0.02] mix-blend-overlay"

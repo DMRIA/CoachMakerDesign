@@ -4,7 +4,6 @@ import IntroSection from '../components/sections/IntroSection';
 import FootballSection from '../components/sections/FootballSection';
 import DesignSection from '../components/sections/DesignSection';
 import AutoCadSection from '../components/sections/AutoCadSection';
-import ChatAssistant from '../components/ChatAssistant';
 import { TextReveal } from '../components/TextReveal';
 import { ScrollText } from '../components/ScrollText';
 import { HoverScramble } from '../components/HoverScramble';
@@ -107,7 +106,6 @@ const Home: React.FC = () => {
             </main>
 
             <Footer />
-            <ChatAssistant />
         </div>
     );
 };

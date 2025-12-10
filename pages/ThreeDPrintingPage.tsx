@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring, useMotionValue, useMotionTemplate } from 'framer-motion';
 import Navbar from '../components/Navbar';
-import ChatAssistant from '../components/ChatAssistant';
 
 const ThreeDPrintingPage: React.FC = () => {
     const containerRef = useRef<HTMLDivElement>(null);
@@ -285,7 +284,6 @@ const ThreeDPrintingPage: React.FC = () => {
                 </motion.div>
 
             </main>
-            <ChatAssistant />
         </div>
     );
 };
